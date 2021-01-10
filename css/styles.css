@@ -41,7 +41,7 @@ html,body {
 
 .navigation li:hover {
     transition-duration: 0.1s;
-    transform: scale(1.1);
+    transform: scale(1.3);
 }
 
 .navigation a {
@@ -53,13 +53,18 @@ html,body {
 }
 
 .bg-image-inicio {
-    background-image:url('../img/bgmarketing.jpg');
+    background-image:url('../img/bgmarketing-png.png');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 23px;
-    padding-bottom: 100px;
-    font-size: 22px;
-    
+    padding-bottom: 120px;
+    font-size: 22px;  
+     
+}
+.bg-image-inicio h1 {
+    text-shadow: 5px 5px 2px rgb(0, 0, 0);  
+}
+.bg-image-inicio h2 {
+    text-shadow: 5px 5px 2px rgb(51, 22, 51);  
 }
 
 
@@ -77,6 +82,11 @@ html,body {
 .sobre-capa {
     color:white;
     font-family: 'Bungee Outline', cursive;
+}
+.sobre-capa h2 {
+    color:white;
+    font-family: 'Bungee Outline', cursive;
+    text-shadow: 5px 5px 2px black;
 }
 
 .sobre-capa div{
@@ -167,6 +177,7 @@ html,body {
 .inicio{
     color:white;
     font-family:  'Montserrat';
+    margin-right: 70px;
    
 }
 .inicio div{
@@ -177,6 +188,7 @@ html,body {
     width: 39%;
     text-align: center;
     margin-top: 30px;
+    background-color: rgb(51, 22, 51);
 }
 .profile-title-inicio{
     vertical-align:top;
