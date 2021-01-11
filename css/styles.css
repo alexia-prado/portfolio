@@ -23,6 +23,9 @@ html,body {
     font-size: 0.75rem;
 }
 
+.titulo-responsivo{
+    display: none;
+}
 
 .navigation ul { 
     margin-top:0;
@@ -59,14 +62,14 @@ html,body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 120px;
-    font-size: 22px;  
-     
+    font-size: 22px;   
 }
 .bg-image-inicio h1 {
     text-shadow: 5px 5px 2px rgb(0, 0, 0);  
 }
 .bg-image-inicio h2 {
     text-shadow: 5px 5px 2px rgb(51, 22, 51);  
+    margin-top: 60px;
 }
 
 
@@ -241,6 +244,10 @@ listaa1{
         margin-left: 0px;
     }
 
+    .titulo-responsivo{
+        display: block;
+    }
+
     .lista{
         margin-left: 0px;
     }
@@ -282,6 +289,9 @@ listaa1{
     .profile-title {
         text-align: center;
         width: 100%;
+    }
+    .titulo-desktop{
+        display: none;
     }
     
     .profile-title h1 {
@@ -365,6 +375,12 @@ listaa1{
     }
     .body-responsivo {
         margin: 30px;
+    }
+
+    .bg-image-inicio {
+
+        padding-bottom: 7px;
+ 
     }
 }
 
