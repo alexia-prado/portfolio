@@ -28,7 +28,6 @@ html,body {
     margin-top:0;
     list-style: none;
     padding-left:0;
-    margin-left: 80px; 
     text-align: right;
     height: 50px;
 }
@@ -187,12 +186,11 @@ html,body {
 }
 .inicio div{
     display: inline-block;
-    
 }
 .profile-inicio{
     width: 39%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
     background-color: rgb(51, 22, 51);
 }
 .profile-title-inicio{
@@ -222,15 +220,31 @@ listaa1{
     display: none;
 }
 
+.video {
+    width: 560px;
+    height: 315px;
+}
 
 @media (max-width: 1000px) {
 
+
+    .imagem-portfolio {
+        width: 90%;
+    }
     .profile-pic {
         width: 40%;
         text-align: center;
         margin: 35px auto;
     }
     
+    .listaa1{
+        margin-left: 0px;
+    }
+
+    .lista{
+        margin-left: 0px;
+    }
+
     .navigation li {
         display: none;
     }
@@ -241,6 +255,17 @@ listaa1{
 
     .image-assinatura {
         display:none;
+    }
+
+    .video {
+        width: 90%;
+        height: 315px;
+    }
+
+    .inicio{
+        color:white;
+        font-family:  'Montserrat';
+        margin-right: 0px;
     }
     
     .capa div {
@@ -317,7 +342,30 @@ listaa1{
         width: 100%;
         padding: 0;
     }  
-    
+
+    .profile-pic {
+        width: 100%;
+    }
+
+    .profile-pic img {
+        max-width: 75%;
+        margin: auto;
+    }
+
+    .profile-inicio{
+        width: 80%;
+        text-align: center;
+        margin-top: 30px;
+        background-color: rgb(51, 22, 51);
+    }
+    .profile-title-inicio{
+        vertical-align:top;
+        width:80% ;
+        text-align: justify;
+    }
+    .body-responsivo {
+        margin: 30px;
+    }
 }
 
 
