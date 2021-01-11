@@ -14,7 +14,8 @@
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!-- fim fontawesome -->
-
+    <script type="text/javascript" src="./js/scripts.js"></script>
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
 </head>
 
 <body>
@@ -31,14 +32,16 @@
     <!-- fim bootstrap -->
 
 
-    <div class="navigation">
+        <div id="navigation" class="navigation">
+
         <ul>
             <span style="float: left;">
-                <img src="./img/logobranco.png" style="height: 68px; border-radius: 18px; ;">
+                <img  class="image-assinatura" src="./img/logobranco.png" style="height: 68px; border-radius: 18px; ;">
             </span>
             <li><a href="./index.html">Página Inicial</a></li>
             <li><a href="./sobre.html">Sobre</a></li>
-            <li><a href="#">Contato</a></li>   
+            <li><a href="#">Contato</a></li>  
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li> 
         </ul>
     </div>
 
